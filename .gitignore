@@ -52,3 +52,18 @@ app.*.map.json
 mobilelab/*.db*
 mobilelab/*.sqlite*
 mobilelab/*.log
+
+# Credenciales, datos SQLite y configuración local
+.env
+.env.*
+*.db
+*.db-*
+*.sqlite
+*.sqlite-*
+*.key
+*.pem
+*.p8
+*.p12
+*.jks
+*.keystore
+*.mobileprovision

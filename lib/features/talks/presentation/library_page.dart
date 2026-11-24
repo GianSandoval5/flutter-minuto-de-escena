@@ -27,7 +27,7 @@ class LibraryPage extends StatelessWidget {
           Cover(
             'CUADERNO DE ENSAYO',
             'Mis charlas',
-            '${book.talks.length} charlas · Sandbox local con datos de demostración',
+            'Charlas: ${book.talks.length} · Sandbox local con datos de demostración',
           ),
           FilledButton.icon(
             onPressed: book.busy
@@ -61,7 +61,7 @@ class LibraryPage extends StatelessWidget {
                 ),
                 title: Text(talk.title),
                 subtitle: Text(
-                  '${talk.minutes} min · ${talk.blocks.length} bloques · ${talk.runs.length} ensayos',
+                  '${talk.minutes} min · Bloques: ${talk.blocks.length} · Ensayos: ${talk.runs.length}',
                 ),
                 trailing: const Icon(Icons.chevron_right),
                 onTap: book.busy

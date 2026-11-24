@@ -28,6 +28,11 @@ jobs:
       - run: flutter analyze
       - run: flutter test --coverage
       - run: python3 scripts/run_mobilelab_checks.py .
+      - uses: actions/upload-artifact@v4
+        with:
+          name: capturas-flutter
+          path: docs/capturas/*.png
+          if-no-files-found: error
       - run: flutter build apk --debug
       - uses: actions/upload-artifact@v4
         with:
