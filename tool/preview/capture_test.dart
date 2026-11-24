@@ -24,6 +24,9 @@ void main() {
       final data = ByteData.sublistView(file.readAsBytesSync());
       final loader = FontLoader('Roboto')..addFont(Future.value(data));
       await t.runAsync(loader.load);
+      final icons = FontLoader('MaterialIcons');
+      icons.addFont(rootBundle.load('fonts/MaterialIcons-Regular.otf'));
+      await t.runAsync(icons.load);
       final docs = (jsonDecode(
         File('mobilelab/seeds/talks.json').readAsStringSync(),
       ) as List).cast<Json>();
