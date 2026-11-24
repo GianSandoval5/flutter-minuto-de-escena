@@ -1,0 +1,6 @@
+schema_version: 1
+resources:
+  talks:
+    path: /api/talks
+    id: id
+    seed: seeds/talks.json

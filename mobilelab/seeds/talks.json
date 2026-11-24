@@ -1,0 +1,64 @@
+[
+  {
+    "id": "demo-taller",
+    "title": "Del boceto al prototipo",
+    "minutes": 15,
+    "blocks": [
+      {
+        "name": "Una pregunta al público",
+        "minutes": 3
+      },
+      {
+        "name": "Demo paso a paso",
+        "minutes": 9
+      },
+      {
+        "name": "Cierre y preguntas",
+        "minutes": 3
+      }
+    ],
+    "runs": [
+      {
+        "at": "2026-11-17T15:00:00Z",
+        "budget": 15,
+        "laps": [
+          {
+            "name": "Una pregunta al público",
+            "minutes": 3,
+            "seconds": 158
+          },
+          {
+            "name": "Demo paso a paso",
+            "minutes": 9,
+            "seconds": 621
+          },
+          {
+            "name": "Cierre y preguntas",
+            "minutes": 3,
+            "seconds": 130
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "demo-relato",
+    "title": "La historia de una idea",
+    "minutes": 8,
+    "blocks": [
+      {
+        "name": "El problema",
+        "minutes": 2
+      },
+      {
+        "name": "El experimento",
+        "minutes": 3
+      },
+      {
+        "name": "Qué cambió",
+        "minutes": 2
+      }
+    ],
+    "runs": []
+  }
+]

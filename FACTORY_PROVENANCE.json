@@ -1,0 +1,44 @@
+{
+  "schema": 1,
+  "owner": "GianSandoval5",
+  "request": {
+    "framework": "flutter",
+    "repo_name": "flutter-minuto-de-escena",
+    "app_name": "minuto_de_escena",
+    "project_dir": "projects/minuto-de-escena",
+    "description": "Cuaderno de ensayo para ponentes con guiones por bloques, cron\u00f3metro e historial en MobileLab SQLite."
+  },
+  "source_sha": "f7682a1784bb17f8cf8125934d16999b5d3b3b84",
+  "run_url": "https://github.com/GianSandoval5/mobile-ai-factory/actions/runs/45312434450",
+  "sdk": {
+    "frameworkVersion": "3.50.1",
+    "channel": "stable",
+    "repositoryUrl": "https://github.com/flutter/flutter.git",
+    "frameworkRevision": "ae9b586f34a8443573f82ef57c3bf914a908cbf7",
+    "frameworkCommitDate": "2026-11-18 17:01:07 -0800",
+    "engineRevision": "4d35714800b9266b6693a58e1225ecd7e9e45ed7",
+    "engineCommitDate": "2026-11-18 01:50:07.000Z",
+    "engineContentHash": "51379e6df48ea8ee7205623b90fe66491cad8df3",
+    "engineBuildDate": "2026-11-17 23:29:07.499",
+    "dartSdkVersion": "3.14.0",
+    "devToolsVersion": "2.61.0",
+    "flutterVersion": "3.50.1",
+    "flutterRoot": "/opt/hostedtoolcache/flutter/stable-3.50.1-x64/flutter"
+  },
+  "tests_passed": 15,
+  "coverage_lines": {
+    "hit": 461,
+    "found": 483
+  },
+  "analysis": "passed",
+  "build": {
+    "kind": "android-debug-apk",
+    "status": "passed"
+  },
+  "dependency_audit": {
+    "provider": "OSV",
+    "hosted_packages_checked": 31,
+    "vulnerabilities": []
+  },
+  "source_digest": "cc91d952de227f62e2fda878966c518b5a7db70204d1ab07e3ed47761eddac12"
+}
